@@ -17,4 +17,12 @@ export class HomePage {
       id: 12
     });
   }
+
+  onLifeCycle() {
+    this.navCtrl.push('LifecyleEventsPage').then(() => {
+      console.log('Página carregada');
+    }).catch(error => {
+      console.log('Acesso não autorizado', error);
+    })
+  }
 }
