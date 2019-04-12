@@ -1,5 +1,5 @@
 {
-  "name": "sidemenu",
+  "name": "tabs",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.1",
+    "@ionic/lab": "1.0.24",
     "typescript": "~2.6.2"
   },
   "description": "An Ionic project"
